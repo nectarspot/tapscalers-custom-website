@@ -1,0 +1,122 @@
+/*----------------- FOOTER SECTION START  -----------------*/
+
+.footer-area p, .footer-area a {
+    font-size: 16px;
+}
+.footer-area {
+    background-color: rgba(250,242,244,.7);
+    color: #333;
+}
+.footer-head {
+    font-weight: 600;
+    font-size: 18px;
+    position: relative;
+    padding-bottom: 10px;
+}
+.footer-head::after {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 3px;
+    background-color: var(--orange);
+    bottom: 0;
+    left: 0;
+}
+.links a {
+    color: #333;
+    margin-bottom: 1rem;
+}
+.links li {
+    display: inline-block;
+    width: 49%;
+}
+.social-icons-ftr {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+    
+}
+.social-icons-ftr li {
+    display: inline;
+}
+.social-icons-ftr li a {
+    color: var(--white);
+    display: inline-block;
+    font-size: 14px;
+    height: 39px;
+    margin: 0 -2.5px;
+    padding: 6px;
+    text-align: center;
+    width: 40px;
+    border: 2px solid var(--white);
+    margin-right: 5px;
+}
+.social-icons-ftr li:last-child a {
+    margin-right: -5px;
+}
+.social-icons-ftr li a:hover {
+    background: var(--white);
+    color: var(--brown);
+}
+.social-icons-ftr li a i {
+    vertical-align: middle;
+}
+
+/*----------------- FOOTER SECTION END  -----------------*/
+
+/*----------------- COPY RIGHTS SECTION START  -----------------*/
+
+.copy-rights {
+    background-color: var(--dark-violet);
+    padding: 15px 0;
+    border-top: 1px solid var(--brown);
+}
+.cr-text {
+    font-size: 15px;
+    margin-bottom: 0 
+}
+.ftr-nav {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+    
+}
+.ftr-nav li {
+    display: inline;
+}
+.ftr-nav li a {
+    color: var(--white);
+    display: inline-block;
+    font-size: 14px;
+    padding: 0 6px;
+    text-align: center;
+}
+
+.ftr-nav li a:hover {
+    color: var(--brown);
+}
+
+
+/*----------------- COPY RIGHTS SECTION END  -----------------*/
+
+/*----------------- SCROLL TO TOP SECTION START  -----------------*/
+
+#to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    background: var(--orange);
+    z-index: 99;
+    transition: all 0.3s ease 0s;
+    display: none;
+}
+
+#to-top i {
+    padding: 10px;
+    color: var(--white);
+    font-size: 14px;
+}
+
+/*----------------- SCROLL TO TOP SECTION END  -----------------*/
